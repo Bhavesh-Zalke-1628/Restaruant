@@ -163,7 +163,6 @@ html,body{
 #right #right-body{
     height: 100%;
     width: 100%;
-    border: 2px solid red;
     background-color: #000;
 }
 #right #right-body img{
