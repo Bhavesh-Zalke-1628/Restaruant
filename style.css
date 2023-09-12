@@ -14,6 +14,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #000;
 }
 #left{
     height: 100vh;
@@ -102,9 +103,109 @@ html,body{
     list-style:decimal;
 }
 #right{
-    position: fixed;
-    right: 0;
-    height: 100vh;
+    margin-left: 25%;
+    height: 100%;
     width: 75%;
-    background-color: green;
+    /* background-color: #000; */
+}
+#right #right-nav{
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    background-color: #191d20;
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+#right-nav #search{
+    height: 60%;
+    width: 50%;
+    background-color: #272a30;
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    margin-left: 2.5vw;
+}
+#right-nav #search img{
+    height: 50%;
+    width: 10%; 
+}
+#right-nav #search input{
+    height: 90%;
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    outline: none;
+}
+#right-nav #btn{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+#right-nav button{
+    height: 5vh;
+    width: 5vw;
+    background-color: red;
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 10px;
+}
+#right-nav #img img{
+    height: 90%;
+}
+#right #right-body{
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    background-color: #000;
+}
+#right #right-body img{
+    width: 90%;
+    margin: 2% 5%;
+    object-fit: cover;
+} 
+#card-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 70px;
+}  
+#one {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin: 0vh 3.5vw;
+}
+#card{
+    height:300px;
+    width: 29%;
+    background-color:#272a30;
+}
+#card #item{
+    height: 75%;
+    width: 90%;
+    border-radius: 10px 10px 0px 0px;
+}
+#card #text{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+#card .plus{
+    width: 15%;
+    height: 20%;
+    background-color: #99959578;
 }
