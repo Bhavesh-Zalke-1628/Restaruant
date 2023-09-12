@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#left{
+    height: 100vh;
+    width: 25%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+#left #first{
+    height: 50%;
+    width: 90%;
+    padding:10px 0px;
+    border-bottom: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+#left #first img{
+    width: 20vw;
+    height: 40vh;
+    margin-right: 2vw;
+}
+#left #first p{
+    color: red;
+}
+#left #second {
+    height: 22%;
+    width: 90%;
+    border-bottom: 2px solid gray;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+#second h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#second ul{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 3px;
+}
+#second ul li{
+    font-size: 17px;
+    text-transform: capitalize;
+    list-style:decimal;
+
+}
+#left #third {
+    height: 22%;
+    width: 90%;
+    border-bottom: 2px solid gray;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+
+}
+#third h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#third ul{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 3px;
+}
+#third ul li{
+    font-size: 17px;
+    text-transform: capitalize;
+    list-style:decimal;
+}
+#right{
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    width: 75%;
+    background-color: green;
+}
