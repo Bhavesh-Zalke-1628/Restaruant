@@ -1,6 +1,6 @@
-function getAllUsers(){
+function getAllData(){
     try {
-        const response =fetch('https://gist.github.com/kshirsagarps/36fade16fa39202715656ef487aaf7b0.js')
+        const response =fetch('https://raw.githubusercontent.com/saksham-accio/f2_contest_3/main/food.json')
         console.log(response)
         const data = response.json()
         console.log(data)
@@ -9,4 +9,4 @@ function getAllUsers(){
     }
 }
 
-getAllUsers()
+getAllData()
